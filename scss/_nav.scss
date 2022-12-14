@@ -1,0 +1,127 @@
+/*
+
+top gradient from #1d2938 to #202123
+
+*/
+
+nav {
+    width: 100%;
+
+    background: #1d2938;
+    background: linear-gradient(180deg, rgba(29, 41, 56, 1) 0%, rgba(32, 33, 35, 1) 100%);
+
+    padding: 6px;
+
+    font-family: map-get($map: $fonts, $key: font-1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .supListLeft {
+        display: flex;
+        flex-direction: row;
+
+        list-style: none;
+
+        color: $text-color-secondary;
+
+        font-size: 11px;
+        font-weight: 500;
+
+        &__element {
+            margin: 0 10px;
+
+            cursor: pointer;
+
+            &:hover {
+                color: $text-color-primary;
+            }
+        }
+    }
+
+    .supListRight {
+        display: flex;
+        flex-direction: row;
+        
+        list-style: none;
+
+        color: $text-color-secondary;
+    
+        &__announcements {
+            height: 22px;
+            width: 27px;
+
+            background: $color-blue;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            cursor: pointer;
+
+            .fa-info {
+                color: #fff;
+
+                font-size: 10px;
+            }
+        }
+
+        &__messages {
+            height: 22px;
+            width: 27px;
+
+            margin-left: 8px;
+
+            background: $bg-color-secondary;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            cursor: pointer;
+
+            &:hover {
+                background: $bg-color-hover;
+                
+                color: #fff;
+            }
+
+            .fa-message {
+                color: &text-color-secondary;
+
+                font-size: 10px;
+            }
+        }
+
+        &__profile {
+            height: 22px;
+
+            margin-left: 8px;
+
+            background: $bg-color-secondary;
+
+            display: flex;
+            align-items: center;
+
+            cursor: pointer;
+
+            &:hover {
+                background: $bg-color-hover;
+            }
+
+            img {
+                height: 22px;
+            }
+
+            &--nickname {
+                font-size: 11px;
+                font-weight: 500;
+
+                margin: 0 10px;
+
+                color: $br-color-blue;
+            }
+        }
+    }
+}

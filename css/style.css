@@ -1,0 +1,156 @@
+/*
+
+variables
+
+*/
+/*
+
+global
+
+*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+
+components
+
+*/
+/*
+
+top gradient from #1d2938 to #202123
+
+*/
+nav {
+  width: 100%;
+  background: #1d2938;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1d2938), to(#202123));
+  background: linear-gradient(180deg, #1d2938 0%, #202123 100%);
+  padding: 6px;
+  font-family: "Arial";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .supListLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  color: #667377;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+nav .supListLeft__element {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+nav .supListLeft__element:hover {
+  color: #ddd;
+}
+
+nav .supListRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  color: #667377;
+}
+
+nav .supListRight__announcements {
+  height: 22px;
+  width: 27px;
+  background: #3d92af;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+nav .supListRight__announcements .fa-info {
+  color: #fff;
+  font-size: 10px;
+}
+
+nav .supListRight__messages {
+  height: 22px;
+  width: 27px;
+  margin-left: 8px;
+  background: #22364b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+nav .supListRight__messages:hover {
+  background: #314e6b;
+  color: #fff;
+}
+
+nav .supListRight__messages .fa-message {
+  color: nav .supListRight__messages .fa-message text-color-secondary;
+  font-size: 10px;
+}
+
+nav .supListRight__profile {
+  height: 22px;
+  margin-left: 8px;
+  background: #22364b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+nav .supListRight__profile:hover {
+  background: #314e6b;
+}
+
+nav .supListRight__profile img {
+  height: 22px;
+}
+
+nav .supListRight__profile--nickname {
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0 10px;
+  color: #4db8db;
+}
+/*# sourceMappingURL=style.css.map */
