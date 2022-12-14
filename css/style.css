@@ -20,11 +20,6 @@ global
 components
 
 */
-/*
-
-top gradient from #1d2938 to #202123
-
-*/
 nav {
   width: 100%;
   background: #1d2938;
@@ -152,5 +147,47 @@ nav .supListRight__profile--nickname {
   font-weight: 500;
   margin: 0 10px;
   color: #4db8db;
+}
+
+nav .supListRight__profile--nickname .fa-chevron-down {
+  font-size: 8px;
+  margin: 0 4px;
+}
+
+nav .supListRight__profile--nickname .balance {
+  color: #667377;
+}
+
+nav .supListRight__icons {
+  height: 22px;
+  margin: 0 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: nav .supListRight__icons text-color-secondary;
+}
+
+nav .supListRight__icons .fa {
+  cursor: pointer;
+}
+
+nav .supListRight__icons .fa:hover {
+  color: #fff;
+}
+
+nav .supListRight__icons .fa-expand {
+  margin: 0 14px 0 11px;
+}
+
+nav .supListRight__icons .fa-window-minimize {
+  font-size: 10px;
+}
+
+nav .supListRight__icons .fa-window-restore {
+  margin: 0 10px;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
