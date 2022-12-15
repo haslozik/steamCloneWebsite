@@ -43,8 +43,8 @@ nav {
         color: $text-color-secondary;
     
         &__announcements {
-            height: 22px;
-            width: 27px;
+            height: 24px;
+            width: 29px;
 
             background: $color-blue;
 
@@ -62,8 +62,8 @@ nav {
         }
 
         &__messages {
-            height: 22px;
-            width: 27px;
+            height: 24px;
+            width: 29px;
 
             margin-left: 8px;
 
@@ -89,7 +89,7 @@ nav {
         }
 
         &__profile {
-            height: 22px;
+            height: 24px;
 
             margin-left: 8px;
 
@@ -105,7 +105,7 @@ nav {
             }
 
             img {
-                height: 22px;
+                height: 24px;
             }
 
             &--nickname {
@@ -128,7 +128,7 @@ nav {
         }
 
         &__icons {
-            height: 22px;
+            height: 24px;
 
             margin: 0 8px;
 
@@ -156,6 +156,61 @@ nav {
             .fa-window-restore {
                 margin: 0 10px;
                 font-size: 10px;
+            }
+        } 
+    }
+}
+
+.nav {
+    width: 100%;
+
+    padding: 15px;
+
+    background: #202123;
+
+    color: #c5c5c5;
+
+    font-family: map-get($map: $fonts, $key: font-1);
+
+    .ListContainer {
+        list-style: none;
+
+        display: flex;
+        align-items: center;
+        
+        font-size: 20px;
+
+        &__arrows {
+            margin: 0 20px 0 0;
+
+            cursor: pointer;
+
+            i {
+                margin-right: 5px;
+            }
+
+            .fa-arrow-right {
+                color: $text-color-secondary;
+            }
+
+            .fa-arrow-left {
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        &__element {
+            margin: 0 20px 0 0;
+
+            cursor: pointer;
+
+            span {
+                text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+            }
+
+            &:hover {
+                text-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
             }
         }
     }
