@@ -1,13 +1,5 @@
-/*
-
-variables
-
-*/
-/*
-
-global
-
-*/
+/*  variables  */
+/*  global  */
 * {
   padding: 0;
   margin: 0;
@@ -15,11 +7,7 @@ global
           box-sizing: border-box;
 }
 
-/*
-
-components
-
-*/
+/*  components  */
 nav {
   width: 100%;
   background: #1d2938;
@@ -238,5 +226,10 @@ nav .supListRight__icons .fa-window-restore {
 
 .nav .ListContainer__element:hover {
   text-shadow: 0px 0px 5px white;
+}
+
+aside {
+  height: calc(100vh - 89px);
+  width: 13%;
 }
 /*# sourceMappingURL=style.css.map */

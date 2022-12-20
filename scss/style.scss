@@ -1,15 +1,11 @@
-/*
-
-variables
-
-*/
+/*  variables  */
 $text-color-primary: #ddd;
 $text-color-secondary: #667377;
 
 $color-blue: #3d92af;
 $br-color-blue: #4db8db;
 
-$bg-color-primary: #1d2938;
+$bg-color-primary: rgba(32, 33, 35, 1);
 $bg-color-secondary: #22364b;
 $bg-color-hover: #314e6b;
 
@@ -17,20 +13,13 @@ $fonts: (
     font-1: "Arial"
 );
 
-/*
-
-global
-
-*/
+/*  global  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/*
-
-components
-
-*/
+/*  components  */
 @import "_nav";
+@import "_leftList";
