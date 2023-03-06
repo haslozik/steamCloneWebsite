@@ -229,7 +229,67 @@ nav .supListRight__icons .fa-window-restore {
 }
 
 aside {
-  height: calc(100vh - 89px);
+  height: calc(100vh - 91px);
   width: 13%;
+  border-right: 1px solid #000;
+  color: #ddd;
+  font-family: "Arial";
+}
+
+aside .topListTitleContainer {
+  width: 100%;
+  padding: 5px;
+  background: #202123;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+aside .topListTitleContainer__leftElement {
+  width: calc(100% - 40px);
+  height: 30px;
+  padding-left: 10px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #3e4047;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+aside .topListTitleContainer__rightElement {
+  width: 30px;
+  height: 30px;
+  background: #242527;
+  font-size: 20px;
+  color: #667377;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+aside .topListTitleContainer__rightElement:hover {
+  color: #fff;
+  background: #3e4047;
 }
 /*# sourceMappingURL=style.css.map */
